@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gamzabox | Professional Portfolio</title>
+    <meta
+      name="description"
+      content="반응형 프로페셔널 포트폴리오와 Games 섹션을 갖춘 정적 웹사이트"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문 바로가기</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="홈으로 이동">Gamzabox</a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="주요 메뉴">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#games">Games</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Product-minded portfolio</p>
+            <h1>간결한 구조로 강한 인상을 남기는 개인 웹사이트</h1>
+            <p class="lead">
+              Apple식 절제된 감성과 스티브 잡스 참고 방향을 반영한
+              정적 프로페셔널 사이트의 첫 번째 셸입니다.
+            </p>
+          </div>
+          <div class="hero-card" aria-hidden="true">
+            <p>Responsive shell</p>
+            <span>HTML · CSS · JavaScript</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            프로필 콘텐츠와 디자인은 다음 루프에서 채워 넣을 수 있도록
+            자리만 확보했습니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="container">
+          <h2>Work</h2>
+          <p>프로젝트 카드와 경력 요약은 후속 루프에서 추가합니다.</p>
+        </div>
+      </section>
+
+      <section class="section" id="games">
+        <div class="container games-panel">
+          <div>
+            <p class="eyebrow">Games</p>
+            <h2>지렁이 게임 자리</h2>
+            <p>
+              키보드와 터치 조작을 지원하는 게임 영역을 위한 최소 구조만
+              준비했습니다.
+            </p>
+          </div>
+          <div class="games-placeholder">Game area coming soon</div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>연락 정보는 다음 루프에서 정리합니다.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
