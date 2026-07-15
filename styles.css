@@ -273,9 +273,14 @@ img {
 .feature-card p,
 .timeline-item p,
 .research-card p,
-.contact-card span {
+.contact-card span,
+.contact-card a {
   color: var(--muted);
   margin: 0;
+}
+
+.contact-card a {
+  display: inline-block;
 }
 
 .panel-large p + p {
